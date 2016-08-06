@@ -1,0 +1,25 @@
+{
+  "name": "react-calculator",
+  "version": "0.1.0",
+  "description": "Basic calculator built with React",
+  "scripts": {
+
+  },
+  "author": "@DaveOrDead",
+  "license": "MIT",
+  "dependencies": {
+    "react": "15.0.2",
+    "react-dom": "15.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "6.3.6",
+    "babel-cli": "6.8.0",
+    "node-sass": "3.7.0",
+    "shell-csslib": "1.0.0",
+  },
+  "keywords": ['React', 'Calculator'],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaveOrDead/react-calculator"
+  }
+}
