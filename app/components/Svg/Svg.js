@@ -1,15 +1,24 @@
 import React from 'react';
 
 
-const Screen = ({number, ...props}) => {
+const Svg = ({path, classList, ...props}) => {
     return (
-        <div
-            {...props}
-            className="c-screen"
-        >
-            {number}
-        </div>
+        <svg {...props} className={classList}>
+            <use xlinkHref={'#' + path} />
+        </svg>
         )
 };
 
-export default Screen;
+
+/**
+ * propTypes
+ * @property {string} classList - List of classes to append.
+ * @property {string} [path] - The id of the icon to reference.
+ */
+Svg.propTypes = {
+    classList: React.PropTypes.string,
+    path: React.PropTypes.string.isRequired
+};
+
+
+export default Svg;

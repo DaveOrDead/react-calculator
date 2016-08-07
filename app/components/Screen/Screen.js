@@ -1,12 +1,22 @@
 import React from 'react';
 
 
-const Svg = ({path, classList, ...props}) => {
+const Screen = ({number, ...props}) => {
     return (
-        <svg {...props} className={classList}>
-            <use xlinkHref={'#' + path} />
-        </svg>
+        <div {...props} className="c-screen">
+            {number}
+        </div>
         )
 };
 
-export default Svg;
+
+/**
+ * propTypes
+ * @property {string} [number] - The number to display on the screen.
+ */
+Screen.propTypes = {
+    number: React.PropTypes.string.isRequired,
+};
+
+
+export default Screen;
