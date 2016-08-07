@@ -1,0 +1,8 @@
+{
+  "presets": ["es2015", "react", "stage-0"],
+  "plugins": ["transform-react-jsx", "transform-decorators-legacy", "array-includes"],
+  "ignore": [
+     "node_modules/**/*"
+  ],
+  "sourceMap": "both"
+}

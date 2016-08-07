@@ -1,0 +1,5 @@
+# Browsers that Shell supports
+# https://github.com/ai/browserslist
+
+ie 11
+last 1 version
