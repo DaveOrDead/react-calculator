@@ -15,9 +15,9 @@
     "autoprefixer": "6.3.6",
     "babel-cli": "6.8.0",
     "node-sass": "3.7.0",
-    "shell-csslib": "1.0.0",
+    "shell-csslib": "1.0.0"
   },
-  "keywords": ['React', 'Calculator'],
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/DaveOrDead/react-calculator"
