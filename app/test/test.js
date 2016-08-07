@@ -1,0 +1,1 @@
+const assert = (didPass, message) => console.log(didPass ? 'Pass:' : 'Fail:', message);
