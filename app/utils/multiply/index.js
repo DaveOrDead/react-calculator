@@ -1,3 +1,3 @@
-import mulitply from './mulitply';
+import multiply from './multiply';
 
-export default mulitply;
+export default multiply;
