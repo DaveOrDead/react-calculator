@@ -13,6 +13,7 @@ import Screen from '../Screen';
 // Data
 import {keys, calculatorFunctions} from '../../Data/data.js';
 
+
 class Calculator extends React.Component {
     constructor() {
         super();
@@ -98,7 +99,7 @@ class Calculator extends React.Component {
                     <div className="l-grid__item">
                         <div className="c-keys">
                             {keys.map(i =>
-                                (<Button text={i} value={i} onClick={this.updateNumber}/>)
+                                (<Button key={i} text={i} value={i} onClick={this.updateNumber}/>)
                             )}
                         </div>
                     </div>
@@ -106,7 +107,7 @@ class Calculator extends React.Component {
 
                          <div className="c-functions">
                             {calculatorFunctions.map(i =>
-                                (<Button text={i.icon} value={i.value} onClick={this.pickFunction}/>)
+                                (<Button key={i.value} text={i.icon} value={i.value} onClick={this.pickFunction}/>)
                             )}
                         </div>
                     </div>
