@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Basic calculator built with React",
   "scripts": {
-
+    "dev": "webpack -d --watch",
+    "build" : "webpack -p",
   },
   "author": "@DaveOrDead",
   "license": "MIT",
@@ -14,10 +15,17 @@
   "devDependencies": {
     "autoprefixer": "6.3.6",
     "babel-cli": "6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "6.8.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "extract-text-webpack-plugin": "1.0.1",
     "node-sass": "3.7.0",
-    "shell-csslib": "1.0.0"
+    "postcss-cli": "^2.5.1",
+    "shell-csslib": "1.0.0",
+    "webpack": "^1.13.1"
   },
-  "keywords": [],
+  "keywords": ["React Calculator"],
   "repository": {
     "type": "git",
     "url": "https://github.com/DaveOrDead/react-calculator"
