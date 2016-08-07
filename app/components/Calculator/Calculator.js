@@ -10,6 +10,8 @@ import multiply from '../../utils/multiply';
 import Button from '../Button';
 import Screen from '../Screen';
 
+// Data
+import {keys, calculatorFunctions} from '../../Data/data.js';
 
 class Calculator extends React.Component {
     constructor() {
