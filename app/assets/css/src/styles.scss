@@ -1,0 +1,81 @@
+/* ============================================================================
+   REACT CALCULATOR
+   ========================================================================= */
+
+/**
+ * Styles for the React Calculator SPA.
+ *
+ * ----------------------------------------------------------------------------
+ *
+ * CONTENTS:
+ *
+ * 1. React Calculator settings
+ * 2. Shell CSS library
+ * 3. React Calculator styles
+ *
+ * N.B. the above order of sections #1 and #2 must be maintained otherwise Sass
+ * will not compile!
+ */
+
+
+
+
+/* 1. React Calculator settings incl. any Shell setting overrides
+   ========================================================================= */
+
+@import 'settings';
+
+
+
+
+/* 2. Shell CSS library
+   ========================================================================= */
+
+@import '~shell-csslib/src/settings';
+
+@import '~shell-csslib/src/mixins-functions';
+
+@import '~shell-csslib/src/normalise-reset';
+
+@import '~shell-csslib/src/base';
+
+// @import '~shell-csslib/src/container';
+
+@import '~shell-csslib/src/grid';
+
+@import '~shell-csslib/src/helpers';
+
+
+
+
+/* 3. React Calculator styles
+   ========================================================================= */
+
+/* stylelint-disable max-line-length */
+
+/**
+ * Layout.
+ */
+
+// @import 'layout';
+
+
+/**
+ * Components.
+ */
+
+@import '../../../components/button/button';
+
+@import '../../../components/calculator/calculator';
+
+@import '../../../components/screen/screen';
+
+
+
+/**
+ * In transit.
+ */
+
+// @import 'shame';
+
+/* stylelint-enable */

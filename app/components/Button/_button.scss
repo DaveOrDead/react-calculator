@@ -1,0 +1,15 @@
+
+.c-button {
+    background-color: #111;
+    color: #f1f1f1;
+    height: rem(60);
+    width: rem(60);
+}
+
+.c-button:hover {
+    background-color: #000;
+}
+
+.c-functions .c-button {
+    background-color: orange;
+}
